@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+             <!--引入外部的css文件-->
+             <link rel="stylesheet" href="style.css" />
+        
+             <!--引入外部的js文件-->
+             <script type="text/javascript" src="action.js" ></script>
+
+    </head>
+        <body>
+            <div class="login-box">
+                <div class="register-form">
+                    <h2>Register</h2>
+                    <form>
+                        <div class="user-box">
+                            <input type="text" name="" required="">
+                            <label>Username</label>
+                        </div>
+                        <div class="user-box">
+                            <input type="password" name="" required="">
+                            <label>Password</label>
+                        </div>
+                        <div class="user-box">
+                            <input type="text" name="" required="">
+                            <label>Email adress</label>
+                        </div>
+                        <button>CREATE</button>
+                        <p class="message">Already registered? <a href="#" onclick="ChangeTo('Login')">Sign In</a></p>
+                    </form>
+                </div>
+
+                <div class="login-form">
+                    <h2>Login</h2>
+                    <form>
+                        <div class="user-box">
+                            <input type="text" name="" required="">
+                            <label>Username</label>
+                        </div>
+                        <div class="user-box">
+                            <input type="password" name="" required="">
+                            <label>Password</label>
+                        </div>
+                        <button>LOGIN</button>
+                        <p class="message">Not registered? <a href="#" onclick="ChangeTo('register')">Create an account</a></p>
+                    </form>
+                </div>
+            </div>
+        </body>
+
+
+</html>
